@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200">
   <rect width="480" height="200" fill="#ffffff"/>
-  <circle cx="52" cy="100" r="36" fill="#184c9f"/>
-  <circle cx="52" cy="100" r="27" fill="#ffffff"/>
-  <circle cx="52" cy="100" r="21" fill="none" stroke="#184c9f" stroke-width="1.8"/>
-  <text x="52" y="95" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#184c9f">ZJU</text>
-  <text x="52" y="111" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="8" fill="#184c9f">1897</text>
-  <text x="98" y="93" font-family="'Noto Serif SC', 'Songti SC', SimSun, serif" font-size="34" font-weight="700" fill="#111111">&#27993;&#27743;&#22823;&#23398;</text>
-  <text x="98" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="1.6" fill="#222222">ZHEJIANG UNIVERSITY</text>
+  <circle cx="62" cy="100" r="44" fill="none" stroke="#1d4f91" stroke-width="3"/>
+  <circle cx="62" cy="100" r="31" fill="none" stroke="#1d4f91" stroke-width="1.4"/>
+  <path d="M62 77l7 14h15L72 99l5 15l-15-9l-15 9l5-15l-12-8h15z" fill="#1d4f91"/>
+  <text x="62" y="53" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="8" fill="#1d4f91">ZHEJIANG</text>
+  <text x="62" y="149" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="8" fill="#1d4f91">UNIVERSITY 1897</text>
+  <text x="126" y="98" font-family="'Noto Serif SC', 'Songti SC', SimSun, serif" font-size="42" font-weight="700" fill="#1d4f91">&#27993;&#27743;&#22823;&#23398;</text>
+  <text x="126" y="135" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="1.2" fill="#1d4f91">ZHEJIANG UNIVERSITY</text>
 </svg>

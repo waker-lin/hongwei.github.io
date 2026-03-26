@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200">
   <rect width="480" height="200" fill="#ffffff"/>
-  <circle cx="52" cy="100" r="36" fill="#0b58b5"/>
-  <circle cx="52" cy="100" r="27" fill="#f6c233"/>
-  <path d="M52 77c10 0 18 5 21 14c-8-5-16-5-24 0c5 3 9 7 11 13c-6-4-12-5-18-3c-2 1-4 2-6 3c2-7 7-12 13-16c-6-2-12-2-18 1c4-8 12-12 21-12z" fill="#0b58b5"/>
-  <circle cx="52" cy="100" r="21" fill="none" stroke="#ffffff" stroke-width="1.8" opacity="0.9"/>
-  <text x="98" y="93" font-family="'Noto Serif SC', 'Songti SC', SimSun, serif" font-size="34" font-weight="700" fill="#111111">&#27494;&#27721;&#29702;&#24037;&#22823;&#23398;</text>
-  <text x="98" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="1.2" fill="#222222">WUHAN UNIVERSITY OF TECHNOLOGY</text>
+  <circle cx="62" cy="100" r="44" fill="#115fb8"/>
+  <circle cx="62" cy="100" r="33" fill="#f4c634"/>
+  <path d="M62 70c11 0 22 6 27 17c-11-6-22-6-33 0c7 4 13 10 17 18c-8-5-16-7-24-4c-3 1-5 2-7 4c3-10 9-17 18-22c-8-2-16-2-24 2c5-9 14-15 26-15z" fill="#115fb8"/>
+  <circle cx="62" cy="100" r="26" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.85"/>
+  <text x="126" y="98" font-family="'Noto Serif SC', 'Songti SC', SimSun, serif" font-size="42" font-weight="700" fill="#111111">&#27494;&#27721;&#29702;&#24037;&#22823;&#23398;</text>
+  <text x="126" y="135" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.1" fill="#222222">WUHAN UNIVERSITY OF TECHNOLOGY</text>
 </svg>
