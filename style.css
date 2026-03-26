@@ -224,9 +224,8 @@ a:hover {
 
 .edu-badge {
   width: 100%;
-  max-width: 240px;
-  border-radius: 4px;
-  background: #ffffff;
+  max-width: 260px;
+  background: transparent;
 }
 
 .school {
