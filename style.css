@@ -222,6 +222,15 @@ a:hover {
   font-size: 0.75rem;
 }
 
+.edu-badge {
+  width: 100%;
+  max-width: 210px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 8px;
+}
+
 .school {
   font-size: 0.98rem;
   font-weight: 600;

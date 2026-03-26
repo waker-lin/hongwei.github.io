@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200">
+  <rect width="480" height="200" fill="#ffffff"/>
+  <rect x="1.5" y="1.5" width="477" height="197" rx="12" fill="none" stroke="#111111" stroke-width="3"/>
+  <circle cx="92" cy="100" r="56" fill="none" stroke="#111111" stroke-width="5"/>
+  <circle cx="92" cy="100" r="42" fill="none" stroke="#111111" stroke-width="2.5"/>
+  <text x="92" y="90" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#111111">WHUT</text>
+  <text x="92" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#111111">2000</text>
+  <text x="170" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#111111">WUHAN UNIVERSITY</text>
+  <text x="170" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#111111">OF TECHNOLOGY</text>
+</svg>
