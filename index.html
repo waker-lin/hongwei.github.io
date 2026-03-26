@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>林鸿伟 | Personal Homepage</title>
+  <meta
+    name="description"
+    content="林鸿伟的个人主页，武汉理工大学本科，浙江大学机械工程直博，研究方向为高速视觉与主动感知。"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <section class="bio-section" id="about">
+      <div class="bio-avatar">
+        <img
+          src="assets/files/avatar/avatar.jpg"
+          alt="林鸿伟"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="avatar-placeholder">LHW</div>
+      </div>
+
+      <div class="bio-text">
+        <h1>林鸿伟</h1>
+        <p class="tagline">High-speed Vision · Active Perception · Robotics · Academic Portfolio</p>
+        <p>
+          我是<strong>林鸿伟</strong>，现为武汉理工大学测控技术与仪器专业本科生
+          （2022 - 2026），即将于 2026 年进入浙江大学机械工程专业攻读直博。
+          当前主要关注<strong>高速视觉</strong>与<strong>主动感知</strong>相关方向。
+        </p>
+        <p>
+          我希望围绕智能感知、机器人与系统实现，持续积累扎实的工程能力与研究能力。
+          这个主页用于整理教育经历、项目工作与研究兴趣，后续也会继续补充更多代表性成果。
+        </p>
+
+        <details class="details-block">
+          <summary>Detailed Profile / 详细介绍</summary>
+          <div class="details-content">
+            <p>
+              本科阶段，我在测控技术与仪器专业接受了较系统的工程训练，并逐步把兴趣聚焦到视觉感知、
+              控制与智能系统方向。后续博士阶段计划进一步围绕高速视觉和主动感知开展深入研究。
+            </p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <div class="social-links">
+      <a class="social-btn" href="mailto:your-email@example.com">Email</a>
+      <a class="social-btn" href="https://github.com/waker-lin" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="social-btn" href="#" target="_blank" rel="noreferrer">CV</a>
+      <a class="social-btn" href="#" target="_blank" rel="noreferrer">WeChat</a>
+    </div>
+
+    <hr class="section-divider" />
+
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <ul class="edu-list">
+        <li class="edu-item">
+          <div class="edu-years">2026<br />—<br />Present</div>
+          <div class="edu-logo logo-card">LOGO</div>
+          <div class="edu-content">
+            <div class="school">浙江大学</div>
+            <div class="dept">机械工程</div>
+            <div class="degree">直博 · 研究方向：高速视觉 / 主动感知</div>
+          </div>
+        </li>
+        <li class="edu-item">
+          <div class="edu-years">2022<br />—<br />2026</div>
+          <div class="edu-logo logo-card">LOGO</div>
+          <div class="edu-content">
+            <div class="school">武汉理工大学</div>
+            <div class="dept">测控技术与仪器</div>
+            <div class="degree">本科</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="research">
+      <h2 class="section-title">Research Interests</h2>
+      <ul class="about-list">
+        <li>
+          <span class="about-label">Vision</span>
+          <span>高速视觉感知、动态场景理解、面向实时系统的视觉信息获取与处理。</span>
+        </li>
+        <li>
+          <span class="about-label">Perception</span>
+          <span>主动感知系统设计，关注感知、决策与执行之间的闭环协同。</span>
+        </li>
+        <li>
+          <span class="about-label">Systems</span>
+          <span>结合控制、仿真平台、机器人框架与计算平台，推进算法到系统的完整实现。</span>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul class="project-list">
+        <li class="project-item">
+          <div class="project-thumb thumb-card">MPC / MPPI<br />VTD / TruckSim / ROS<br />Jetson AGX Orin</div>
+          <div class="project-body">
+            <div class="project-name">智能车辆控制与仿真验证项目</div>
+            <div class="project-meta">Autonomous Driving / Control / Simulation · Project Experience</div>
+            <div class="project-desc">
+              项目中对 <strong>MPC</strong> 与 <strong>MPPI</strong> 控制方法进行了对比分析，
+              最终采用 MPC 完成路径跟踪与控制输入调节；基于 <strong>VTD</strong> 与
+              <strong>TruckSim</strong> 构建高保真虚拟环境，并结合 <strong>ROS</strong>
+              实现多模块之间的数据交互与仿真协同；在 <strong>Jetson AGX Orin</strong>
+              平台上完成仿真测试与系统验证，进一步理解了控制算法、仿真环境与硬件平台之间的协同关系。
+            </div>
+            <div class="link-row">
+              <span class="mini-link static-tag">MPC</span>
+              <span class="mini-link static-tag">ROS</span>
+              <span class="mini-link static-tag">VTD</span>
+              <span class="mini-link static-tag">TruckSim</span>
+              <span class="mini-link static-tag">Jetson AGX Orin</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-item">
+          <div class="project-thumb thumb-card">Sensor Course Design<br />Strain Gauge / Full Bridge<br />Circuit Design</div>
+          <div class="project-body">
+            <div class="project-name">传感器课程设计：基于应变片的全桥测量电路设计</div>
+            <div class="project-meta">Course Design · 2025.01.01 - 2025.01.24</div>
+            <div class="project-desc">
+              围绕<strong>应变片测量电路</strong>展开设计，结合结构受力与应力梯度分析完成应变片选型，
+              选用栅长较小的<strong>箔式应变片</strong>，并参考 <strong>BH350 系列</strong>参数完成器件选择。
+              基于<strong>全桥方案</strong>进行测量电路设计，对应变电桥供电电压进行了分析与计算，
+              形成了较完整的传感信号测量电路设计思路。
+            </div>
+            <div class="link-row">
+              <span class="mini-link static-tag">Strain Gauge</span>
+              <span class="mini-link static-tag">Full Bridge</span>
+              <span class="mini-link static-tag">BH350</span>
+              <span class="mini-link static-tag">Circuit Design</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="about-me">
+      <h2 class="section-title">About Me</h2>
+      <ul class="about-list">
+        <li>
+          <span class="about-label">Focus</span>
+          <span>研究兴趣集中在高速视觉与主动感知，希望围绕智能感知系统展开长期工作。</span>
+        </li>
+        <li>
+          <span class="about-label">Skills</span>
+          <span>熟悉控制算法、仿真平台与机器人软件框架的结合，对系统实现与工程落地有持续兴趣。</span>
+        </li>
+        <li>
+          <span class="about-label">Tools</span>
+          <span>在项目中接触并使用过 Git、ROS、VTD、TruckSim、Jetson AGX Orin 等工具与平台。</span>
+        </li>
+        <li>
+          <span class="about-label">Next</span>
+          <span>后续可继续补充更多科研项目、竞赛经历、论文成果与联系方式信息。</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 林鸿伟 · Last updated Mar. 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
