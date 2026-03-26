@@ -6,7 +6,7 @@
   <title>林鸿伟 | Personal Homepage</title>
   <meta
     name="description"
-    content="林鸿伟的个人主页，武汉理工大学本科，浙江大学机械工程直博，研究方向为高速视觉与主动感知。"
+    content="林鸿伟的个人主页，武汉理工大学本科，浙江大学机械工程博士生，研究方向聚焦于高速视觉、主动感知与精密系统。"
   />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -16,7 +16,7 @@
       <div class="bio-avatar">
         <img
           src="assets/files/avatar/avatar.jpg"
-          alt="林鸿伟"
+          alt="Hongwei Lin"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
         />
         <div class="avatar-placeholder">LHW</div>
@@ -45,7 +45,7 @@
             <p>
               我是林鸿伟，现为武汉理工大学测控技术与仪器专业本科生（2022 - 2026），浙江大学机械工程专业 2026 级博士研究生。
               当前主要关注高速视觉、智能感知与主动感知相关方向，希望围绕智能感知、机器人与系统实现持续积累扎实的工程能力与研究能力。
-              这个主页用于整理我的教育经历、项目工作与研究兴趣，后续博士阶段希望进一步围绕高速视觉与智能感知系统开展深入研究，并继续补充更多代表性成果。
+              这个主页用于整理我的教育经历、项目工作与研究兴趣，后续也会继续补充更多代表性成果。
             </p>
           </div>
         </details>
@@ -117,11 +117,10 @@
             <div class="project-name">智能车辆控制与仿真验证项目</div>
             <div class="project-meta">Autonomous Driving / Control / Simulation · Project Experience</div>
             <div class="project-desc">
-              项目中对 <strong>MPC</strong> 与 <strong>MPPI</strong> 控制方法进行了对比分析，
-              最终采用 MPC 完成路径跟踪与控制输入调节；基于 <strong>VTD</strong> 与
-              <strong>TruckSim</strong> 构建高保真虚拟环境，并结合 <strong>ROS</strong>
-              实现多模块之间的数据交互与仿真协同；在 <strong>Jetson AGX Orin</strong>
-              平台上完成仿真测试与系统验证，进一步理解了控制算法、仿真环境与硬件平台之间的协同关系。
+              项目中对 <strong>MPC</strong> 与 <strong>MPPI</strong> 控制方法进行了对比分析，最终采用 <strong>MPC</strong>
+              完成路径跟踪与控制输入调节；基于 <strong>VTD</strong> 与 <strong>TruckSim</strong> 构建高保真虚拟环境，并结合
+              <strong>ROS</strong> 实现多模块之间的数据交互与仿真协同；在 <strong>Jetson AGX Orin</strong> 平台上完成仿真测试与系统验证，
+              进一步理解了控制算法、仿真环境与硬件平台之间的协同关系。
             </div>
             <div class="link-row">
               <span class="mini-link static-tag">MPC</span>
@@ -141,9 +140,9 @@
             <div class="project-desc">
               课程设计的核心工作是完成<strong>传感测量电路设计与实验验证</strong>。围绕信号调理链路，设计并实现了
               <strong>正弦波发生、全桥电路、三运放放大、方波转换、相敏检波、低通滤波与直流放大</strong>等模块，
-              形成较完整的模拟前端电路方案；后续结合 <strong>A/D 转换芯片</strong>、<strong>51 单片机处理</strong>与
-              <strong>三位半数字显示</strong>完成测量结果输出链路。在实操环节中结合<strong>示波器</strong>对各级电路输出波形进行测试与分析，
-              验证信号放大、滤波、检波与数模接口链路效果，并据此完成参数调试和电路性能检查。
+              形成较完整的模拟前端电路方案；后续结合 <strong>A/D 转换芯片</strong>、<strong>51 单片机处理</strong> 与
+              <strong>三位半数字显示</strong> 完成测量结果输出链路。在实操环节中结合 <strong>示波器</strong> 对各级电路输出波形进行测试与分析，
+              验证信号放大、滤波、检测与数模接口链路效果，并据此完成参数调试和电路性能检查。
             </div>
             <div class="link-row">
               <span class="mini-link static-tag">Circuit Design</span>
@@ -154,6 +153,32 @@
               <span class="mini-link static-tag">Digital Display</span>
               <span class="mini-link static-tag">Oscilloscope</span>
               <span class="mini-link static-tag">Analog Front-End</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-item">
+          <div class="project-thumb thumb-card">C++ / MFC<br />MSComm / WinSock<br />Vehicle Interaction</div>
+          <div class="project-body">
+            <div class="project-name">基于 C++ 的自动驾驶软件课程设计：三端协同感知数据通信与车辆交互系统</div>
+            <div class="project-meta">Course Project · 2024.02.01 - 2024.03.01</div>
+            <div class="project-desc">
+              基于 <strong>C++</strong> 开发，综合使用 <strong>MFC</strong>、<strong>MSComm</strong>、<strong>WinSock</strong>、
+              <strong>STL</strong> 与<strong>多线程机制</strong>，设计并实现 <strong>Sensor</strong>、<strong>Car</strong>、<strong>DataSrv</strong>
+              三端协同的自动驾驶软件课程项目，完成感知数据的串口采集、<strong>TCP/IP</strong> 上传、服务端数据预警反馈、
+              <strong>CSV</strong> 日志查询，以及基于端口号寻址和服务器中转的车辆间消息交互。
+            </div>
+            <div class="project-desc">
+              当前系统中的传感器数据仍以模拟为主，车辆通信也主要停留在演示级实现，尚未涉及更完整的通信协议、可靠性设计与真实车联网场景；
+              后续可进一步接入真实设备，完善结构化消息协议、线程安全机制与数据管理架构，以提升系统的工程完整度。
+            </div>
+            <div class="link-row">
+              <span class="mini-link static-tag">C++</span>
+              <span class="mini-link static-tag">MSComm</span>
+              <span class="mini-link static-tag">WinSock</span>
+              <span class="mini-link static-tag">TCP/IP</span>
+              <span class="mini-link static-tag">STL</span>
+              <span class="mini-link static-tag">Multithreading</span>
             </div>
           </div>
         </li>
@@ -179,7 +204,7 @@
         </li>
         <li>
           <span class="about-label">Next</span>
-          <span>后续可继续补充与高速视觉、智能感知相关的科研项目与阶段性成果。</span>
+          <span>后续会继续补充与高速视觉、智能感知相关的科研项目、课程设计与阶段性成果。</span>
         </li>
       </ul>
     </section>
