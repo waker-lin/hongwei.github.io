@@ -232,6 +232,14 @@ a:hover {
   background: transparent;
 }
 
+.edu-badge-zju {
+  height: 64px;
+}
+
+.edu-badge-whut {
+  height: 72px;
+}
+
 .school {
   color: var(--accent);
   font-size: 0.98rem;
