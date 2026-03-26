@@ -223,8 +223,12 @@ a:hover {
 }
 
 .edu-badge {
-  width: 100%;
-  max-width: 250px;
+  display: block;
+  justify-self: center;
+  width: auto;
+  max-width: 100%;
+  height: 72px;
+  object-fit: contain;
   background: transparent;
 }
 
