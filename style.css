@@ -79,7 +79,7 @@ a:hover {
 .bio-avatar img {
   display: block;
   object-fit: cover;
-  object-position: center 48%;
+  object-position: center 53%;
 }
 
 .avatar-placeholder {
